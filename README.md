@@ -34,7 +34,7 @@ PZ_PASSWORD=...
 
 3. Run ./gs-config.py with no arguments for the interactive setup process.
 
-Alternatively, supply the course id (https://www.gradescope.com/courses/__XXXXXX__), 
+Alternatively, supply the course id (gradescope.com/courses/__XXXXXX__), 
 roster file from piazza (from manga class -> download roster as csv), and an identifier to
 use for that class (e.g. fs24) as follows:
 ```
@@ -47,10 +47,12 @@ If you want to change the default class, edit the value of `default-course` in `
 
 ## Usage
 Example 1: 2-day extension for a student on all assignments containing the string "hw1"
-`./gs-extend.py "student name" -s hw1 -d 2`
+```sh
+./gs-extend.py "student name" -s hw1 -d 2
+```
 
 Example 2: Grant an extension of default length (set in settings.toml) for all of 
-the names in a file `students.txt`
+the names in a file `students.txt` for homework with the title "hw1"
 ```sh
 ./gs-extend.py $(cat students.txt) -s hw1
 ```
