@@ -63,7 +63,7 @@ def initialize_settings():
     default_settings = {
         "course_path" : "courses",
         "courses" : [],
-        "default-to-newest" : True
+        "default-to-newest" : True,
         "default-length" : 5
     }
     settings_path.write_text(tomli_w.dumps(default_settings))
