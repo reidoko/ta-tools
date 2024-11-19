@@ -32,7 +32,7 @@ PZ_EMAIL=...
 PZ_PASSWORD=...
 ```
 
-3. Run ./gs-config.py with no arguments for the interactive setup process.
+3. Run `./gs-config.py` with no arguments for the interactive setup process.
 
 Alternatively, supply the course id (gradescope.com/courses/__XXXXXX__), 
 roster file from piazza (from manga class -> download roster as csv), and an identifier to
