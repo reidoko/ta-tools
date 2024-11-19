@@ -142,7 +142,7 @@ def interactive_setup():
         roster = {}
         sans_emails = []
         for student in students:
-            name = student["name"]
+            name = student["name"].lower()
             emails = student["email"].split(", ")
             valid_email = None
             for email in emails:
