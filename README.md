@@ -4,7 +4,7 @@ A script for managing gradescope extensions
 # Getting started
 
 ## Prerequisites
-Python version 3.11 or higher with the following python libraries:
+Python version 3.11 or higher with the following python packages installed:
 - piazza-api
 - python-dotenv
 - python-dateutil
@@ -35,7 +35,7 @@ PZ_PASSWORD=...
 3. Run `./gs-config.py` with no arguments for the interactive setup process.
 
 Alternatively, supply the course id (gradescope.com/courses/__XXXXXX__), 
-roster file from piazza (from manga class -> download roster as csv), and an identifier to
+roster file from piazza (from manage class -> download roster as csv), and an identifier to
 use for that class (e.g. fs24) as follows:
 ```
 ./gs-config.py -g XXXXXX -r /path/to/roster.csv -id fs24
